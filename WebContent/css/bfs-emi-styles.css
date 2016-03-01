@@ -1,0 +1,215 @@
+﻿@charset "utf-8";*, html, body{margin:0;border:none;outline:none;}
+html, body{height:100%;width:100%;font-family:'Rubrik-Regular', arial, verdana;font-size:11pt;color:#383838;}
+a{text-decoration:none;color:#383838;cursor:pointer;outline:none;}
+a:hover{color:#2077AC;}
+a.selected{color:#2077AC!important;}
+h1,h2,h3,h4,h5,h6, .header .mainMenu li a{font-family:'dax_otmedium',arial,verdana;}
+
+h1{font-size:22pt;}
+h3{font-size:16pt;}
+.tab-content > ul > li{margin-bottom:10px;}
+.fleft{float:left;}
+.fright{float:right;}
+.fnone{float:none;}
+.clear{clear:both;}
+.block{display:block;}
+.mr{margin-right:10px;}
+.mt{margin-top:10px;}
+.ml{margin-left:10px;}
+.mb{margin-bottom:10px;}
+.pb20{padding-bottom:20px;}
+.mb20{margin-bottom:20px;}
+.mb20 a{cursor:default;}
+.mr20{margin-right:20px;}
+.tml{margin-left:5px;}
+.p10{padding:10px;}
+.none{display:none;}
+.hr{height:1px;clear:both;display:block;background-color:#c5c5c7;margin:5px 0;*border-top:1px solid #c5c5c7;*background-color:#fff;}
+.tcenter{text-align:center;}
+.tleft{text-align:left;}
+.tright{text-align:right;}
+.nm{margin:0;}
+.fi{font-style:italic;}
+.rs{background:url(../images/rupee-icon.png) left center no-repeat;padding-left:25px;}
+p{line-height:20px;margin:0 0 20px 0;}
+li{line-height:20px;text-align:justify;list-style:circle;}
+.relative{position:relative;}
+.lineNormal a{line-height:normal!important;}
+
+
+.header ul, #right{padding:0;}
+/*#left ul{margin:auto!Important;padding-left:25px}*/
+.txtalign-right p{text-align:right}
+#page{width:998px;margin:0 auto;position:relative;}
+#header{width:inherit;clear:both;}
+#Main-menu{height:44px;}
+#main-menu a.home{padding:10px 20px;}
+#main-menu a{padding:0 20px;color:#fff;float:left;display:block;font-size:11pt;line-height:43px;margin-right:1px;}
+#main-menu a:hover{box-shadow:0 0 20px #005d9b inset;-moz-box-shadow:0 0 20px #005d9b inset;-webkit-box-shadow:0 0 20px #005d9b inset;}
+#main-menu a.selected{background:url(../images/menu-select-bg.png) center bottom no-repeat;box-shadow:0 0 20px #005d9b inset;-moz-box-shadow:0 0 20px #005d9b inset;-webkit-box-shadow:0 0 20px #005d9b inset;}
+.header{height:83px;position:relative;*z-index:99!important;zoom:1; border-bottom: 1px solid #ebebed;}
+.header .logo{float:left;margin-top:20px;}
+.header .menu{position:absolute;right:0;top:10px;font-size:0.75em;color:#636466;z-index:99;}
+.header .menu ul{margin:0;}
+.header .menu li{list-style:none;float:left;position:relative;padding:0 2px;}
+.header .menu li a{margin:0 4px;color:#404040;display:block;cursor:default;}
+.header .menu li a:hover{color:#2077AC;}
+.header li .subnav{background:none repeat scroll 0 0 #fefefe;display:none;float:left;left:50%;opacity:0.9;padding:5px;position:absolute;top:30px;width:230px;z-index:2147483647 !important;border:1px solid #a0a0a0;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;margin-left:-120px;}
+.header li .subnav li{clear:both;float:none;z-index:2147483647 !important;line-height:normal;}
+.header li .subnav li.none{display:block!important;}
+.header li .subnav li.none a{border-bottom:1px solid #fff;display:block!important;}
+.header li .subnav li a{font-family:'Rubrik-Medium',Arial,Verdana;display:block;font-size:100%;text-transform:none;color:#333!important;font-size:10pt!important;padding:5px 3px;border-bottom:1px solid #e8e8e8;text-align:left;font-weight:normal!important;cursor:pointer;}
+.header li .subnav li a:hover{color:#2077AC;display:block;background-color:#f6f6f6;}
+.header li a:hover .header li ul.subnav{display:block;}
+.mainMenu .menuArrow, .menu .menuArrow{position:absolute;left:50%;top:20px;display:none;margin-left:-10px;z-index:3147483647}
+.login .menuArrow{margin-left:-10px}
+.header .inputDiv{border:none!important;background-color:transparent;position:relative;}
+.search{background:url(http://www.bajajfinservlending.in/Theme/default/images/search-bg-small.png) left top no-repeat;width:234px;height:28px;float:right!important;position:absolute!important;right:0;top:44px;margin-right:0!important;z-index:0;}
+.header .inputDiv input, .header .inputDiv input:focus{border:none!Important;background-color:transparent;padding:5px 7px;}
+.header .inputDiv label{width:82%!important;margin:2px 0 0 8px!important;position:absolute;left:0;top:3px;background-color:#f1f1f1!important;cursor:text;color:#383838;font-size:10pt;}
+.header .inputDiv #go{width:24px;height:13px;float:right;margin:0;}
+#search{width:105px;color:#333;font-size:9pt;margin:0;}
+.txtSearch{width:105px;color:#333;font-size:9pt;margin:0;}
+.header .mainMenu{font-size:13pt;left:310px;list-style:none outside none;position:absolute;top:46px;color:#636466;width:460px;}
+.header .mainMenu ul{color:#404040;list-style:none;}
+.header .mainMenu li{float:left;position:relative;list-style:none;}
+.header .mainMenu li a{padding:0 10px;color:#404040;}
+.header .mainMenu li a.selected{color:#0072BC;}
+.header .mainMenu li a:hover{color:#2077AC;}
+.mr10{margin-right:10px;margin-bottom:10px}
+.mbr10{margin:0 10px 10px 0;}
+.color-whi p{color:#FFF!important}
+.color-whi{color:#FFF!important}
+.ffm{font-family:'Rubrik-Medium',arial,verdana;}
+.f11{padding-bottom:10px}
+.f13{padding-bottom:25px}
+.pdT15{padding-top:15px}
+.breadcrum{font-size:9pt;}
+/*#left{width:728px;float:left;position:relative;z-index:0;*position:relative;*z-index:-1;}
+#right{width:230px;float:right;position:relative;z-index:0;*position:static;}*/
+
+#ContentLeft {width:220px;float:left;position:relative;z-index:0;*position:relative;*z-index:-1;/*background:#f2f2f2;*/ background:url('../images/bg-right.jpg') repeat-y top right; }
+#ContentRight {width:200px;float:right;position:relative;z-index:0;*position:static; /*background:#f2f2f2*/  background:url('../images/bg-right.jpg') repeat-y top left; }
+#ContentMiddle {float:left;position:relative;z-index:0;*position:relative;*z-index:-1; width:577px;}
+
+#ContentLeft .title {padding:12px 0px 12px 17px;font-size:24px;color:#0072BC; font-family:'dax_otmedium',arial,verdana;}
+#ContentRight .title {padding:12px 0px 12px 14px;font-size:24px;color:#0072BC; font-family:'dax_otmedium',arial,verdana;}
+
+.imgTabs span{float:left;width:100px;background:url(../images/imgTabs-bg.png) right top repeat-y;text-align:center;padding:15px 10px;}
+.imgTabs span img{clear:both;}
+.imgTabs span.boderhide{background-image:none;}
+h2.most-popular{margin:10px 0;font-size:14pt;border-bottom:1px solid #bdbfc1;border-top:1px solid #bdbfc1;padding:10px 0;display:none;}
+h2.most-popular span{color:#383838;font-size:10pt;float:right;margin-right:10px;*margin-top:-30px;padding-right:15px;background:url(../images/drop-arrow.png) right center no-repeat;font-weight:bold;}
+.tabs{clear:both;}
+.CauculatorTab{/*background: url(http://www.bajajfinservlending.in/theme/default/images/tabs-ul-bg.png) right top repeat-y;*/float:left;position:relative;}
+.CauculatorTab ul{float:left;clear:both;padding:0!important;}
+.CauculatorTab ul li{list-style:none;clear:both;text-align:left;}
+.CauculatorTab ul li a{width:198px;position:relative;z-index:1;font-size:10pt;float:left;display:block;clear:both;padding:10px 2px 10px 20px;font-weight:normal;}
+.CauculatorTab ul li.active a{background:#0072BC url(../images/active-arrow.png) no-repeat right;width:198px;color:#fff!important;}
+/*.tab-container{float:left;width:555px;padding:15px 0 15px 15px;}*/
+.tab-container ul{margin-left:25px;}
+.tabs h4{margin-top:15px;}
+.tabs ol{margin-left:25px;}
+table.tab-table{border-collapse:collapse;border-top:2px solid #eee;border-bottom:2px solid #eee;margin-bottom:7px;}
+table.tab-table td.vrHigh{background-color:#009ae2;}
+table.tab-table td{border-bottom:1px solid #dddedf;padding:5px;}
+
+.videoNews{clear:both;display:block;font-size:9pt;padding:0px 15px;}
+.videoNews .vn{border-top:1px solid #d3d2d7;padding:10px 0;}
+.videoNews .vn:first-child{border-top:0 none;}
+.videoNews p{margin:8px 0 3px;clear:both;display:block;line-height:normal;}
+.videoNews img{float:left;margin-right:5px;}
+
+.videoNews .rt-shortbox a {display:inline-block; padding-bottom:6px;}
+.videoNews h4{font-family:'dax_otmedium',arial,verdana;font-size:13pt;color:#595959;font-weight:normal}
+
+
+.f6{font-size:6pt;}
+.f7{font-size:7pt;}
+.f8{font-size:8pt;}
+.f9{font-size:9pt;}
+.f10{font-size:10pt;}
+.f11{font-size:11pt;}
+.f12{font-size:12pt;}
+.f13{font-size:13pt;}
+.f14{font-size:14pt;}
+
+@font-face{font-family:'Rubrik-Medium';src:url('fonts/Rubrik-Medium.eot');src:url('fonts/Rubrik-Medium.eot?#iefix') format('embedded-opentype'),
+url('fonts/Rubrik-Medium.woff') format('woff'),
+url('fonts/Rubrik-Medium.ttf') format('truetype'),
+url('fonts/Rubrik-Medium.svg#FlexoMediumRegular') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'Rubrik-Regular';src:url('fonts/Rubrik-Regular.eot');src:url('fonts/Rubrik-Regular.eot?#iefix') format('embedded-opentype'),
+url('fonts/Rubrik-Regular.woff') format('woff'),
+url('fonts/Rubrik-Regular.ttf') format('truetype'),
+url('fonts/Rubrik-Regular.svg#FlexoRegular') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'Rubrik-Light';src:url('fonts/Rubrik-Light.eot');src:url('fonts/Rubrik-Light.eot?#iefix') format('embedded-opentype'),
+url('fonts/Rubrik-Light.woff') format('woff'),
+url('fonts/Rubrik-Light.ttf') format('truetype'),
+url('fonts/Rubrik-Light.svg#FlexoThin') format('svg');font-weight:normal;font-style:normal;}
+
+.ac_results{background-color:white !important;border:1px solid #CCCCCC !important;border-radius:4px;margin-top:2px !important;overflow:hidden !important;padding:0 !important;width:231px !important;z-index:99999 !important;}
+.ac_results ul{margin:0;max-height:270px !important;padding:0;font-size:13px;}
+.ac_results li.ac_odd{background:none repeat scroll 0 0 #F4F4F4 !important;color:#333333 !important;cursor:pointer !important;list-style-type:none !important;padding:5px !important;}
+.ac_results li.ac_even{color:#333333 !important;cursor:pointer !important;list-style-type:none !important;padding:5px !important;}
+.ac_results li.ac_over{background:none repeat scroll 0 0 #2077AC !important;color:#FFFFFF !important;cursor:pointer !important;list-style-type:none !important;}
+
+
+/* Social links */
+
+.socialLinks {float:right; }
+.socialButtons {float:left;margin-left:3px;}
+
+.socialLinks a {float:left;width:22px; height:24px;}
+.socialLinks a span {float:left;width:22px; height:24px;}
+.socialLinks a span.socialFacebook2, .socialLinks a span.socialLinkedin2, .socialLinks a span.socialTweeter2 {opacity:0;}
+.socialFacebook {background:url(http://www.bajajfinservlending.in/theme/default/images/facebook-bfl.png) no-repeat top;width:22px; height:24px;}
+.socialLinkedin {background:url(http://www.bajajfinservlending.in/theme/default/images/linkedin-bfl.png) no-repeat top;width:22px; height:24px;}
+.socialTweeter {background:url(http://www.bajajfinservlending.in/theme/default/images/tweeter-bfl.png) no-repeat top;width:22px; height:24px;}
+
+.socialFacebook2 {background:url(http://www.bajajfinservlending.in/theme/default/images/facebook-bfl.png) no-repeat bottom;width:22px; height:24px;}
+.socialLinkedin2 {background:url(http://www.bajajfinservlending.in/theme/default/images/linkedin-bfl.png) no-repeat bottom;width:22px; height:24px;}
+.socialTweeter2 {background:url(http://www.bajajfinservlending.in/theme/default/images/tweeter-bfl.png) no-repeat bottom;width:22px; height:24px;}
+
+
+
+
+.faqcont li {list-style:inherit}
+.faqcont ul {padding-left:23px}
+.bannerPromo img {padding:5px 0;}
+.bannerPromo a, .bannerPromo a:hover {color:#383838}
+
+.errortxtVal {color: rgb(255, 0, 0); font-size: 8pt;clear:both; line-height:12px;display:none}
+.InputDivH {font-size:11px; height:57px;}
+.inputDiv1 select {font-size: 9pt!important;width: 153px!important;}
+
+
+.forecloser-calculator .errortxtVal {color: rgb(255, 0, 0); font-size: 8pt;clear:both; line-height:12px;display:none}
+.forecloser-calculator .InputDivH {font-size:11px; height:87px;padding-top: 20px;}
+.forecloser-calculator .inputDiv1 select {font-size: 10pt!important;width: 180px!important;}
+
+/* forecloser CSS */
+
+.forecloserdetails #ErrorDiv {display:none}
+ul.summaryheading li.headTable {color: #000000;font-size: 15px;/*padding: 0 4px 0 24px;*/line-height: 13px;}
+ul.summaryheading li.firstcol {padding-left:0px!important; }
+        ul.summaryheading li.headTable span.small {color: #9E9E9E;font-size: 11px;}
+        ul.summaryheading li.headTable span {display:block;width:200px;text-align:center; }
+        ul.summaryheading li.firstcol span {width:150px!important;}
+
+        .headTable2 {}
+        .headTable2 .headtd{float:left;width:180px; font-size:15px;padding:10px 10px 0px 10px;border-left:2px dotted #CCCCCC; font-family:'daxotregular',arial,verdana; height:62px;border-bottom:2px dotted #CCCCCC;}
+        .headTable2 .headtd span.small{color: #9E9E9E;font-size: 13px;}
+        .headTable2 .headtd:first-child{border-left:0px none;width:180px;}
+        
+            .headTable2 .headtr {clear:both}
+ .headTable2 .headtr .headtd2{float:left;width:180px; font-size:15px;padding:10px 10px 0px 10px;border-left:2px dotted #CCCCCC;} 
+ .headTable2 .headtr .headtd2:first-child{border-left:0px none;width:180px;} 
+ .headTable2 .headtr .headtd2 span.small{color: #9E9E9E;font-size: 11px;}
+
+.forecloser-calculator .penaltyCharges a{padding:0 0 25px 0!important;}
+.forecloser-calculator .intSaved a {padding:0 0 25px 0!important;
+}
+.forecloser-calculator.summaryDetails.clickNon {padding-right:15px;
+}
+.forecloser-calculator.tab-container ul li a {width:115px;
+}

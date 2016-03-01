@@ -1,0 +1,483 @@
+
+
+a {
+	text-decoration: none;
+	color:#0072BC;
+	cursor:pointer;
+	outline:none;
+}
+a:hover {
+	color:#2077AC;
+}
+#page {
+	width:500px;
+	margin:0 auto;
+	position:relative;
+}
+.header {
+	height: 96px;
+	position: relative;
+}
+#container {
+	clear: both;
+	display: block;
+	float:left;
+}
+.calcuwidth{width:755px; float:left;}
+.emi-calculator-business{font-size:10pt!important;}
+.mb20 {
+	margin-bottom: 20px;
+}
+.mb40 {
+	margin-bottom: 40px;
+}
+
+
+.block {
+	display: block;
+}
+.clear {
+	clear: both;
+}
+.padlr{padding:0 20px;}
+/*.various-lm {
+	margin-top: 15px;
+}*/
+#loan-amount, .fleft, .loan-amount { float: left;
+}
+.heading h1{float:left}
+.heading .calculatorFaqs{line-height:32px; float:right;}
+h1,h2,h3{color: #0072BC;}
+.emi-calculator-business .form {
+	color: #000000;
+	line-height: 40px;
+}
+loan-amount .emi-slider {
+}
+.EmiCalculator .emi-slider {
+	float: left;
+	padding: 0;
+	position: relative;
+	width: 730px;
+}
+
+.numbertimes {
+	float: right;
+}
+label{display:none;}
+.EmiCalculator #slider.ui-widget-content, .EmiCalculator #slider2.ui-widget-content, .EmiCalculator #slider3.ui-widget-content {
+	background: none repeat scroll 0 0 #CCCCCC;
+}
+.EmiCalculator #slider, .EmiCalculator #slider2, .EmiCalculator #slider3 {
+	height: 5px;
+	margin-top: 8px !important;
+}
+.part-payment-calculator .EmiCalculator #slider, .part-payment-calculator .EmiCalculator #slider2, .part-payment-calculator .EmiCalculator #slider3 {
+	margin-left: 5px !important;
+}
+#slider, #slider2, #slider3 {
+	border: 0 none !important;
+	height: 19px;
+	margin-top: 18px;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+	border-bottom-right-radius: 4px;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+	border-bottom-left-radius: 4px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+	border-top-right-radius: 4px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+	border-top-left-radius: 4px;
+}
+.ui-widget-content {
+	background: url("../images/slider-bg-loan-amount.png") repeat-x scroll 50% 50% rgba(0, 0, 0, 0);
+	border: 1px solid #AAAAAA;
+	color: #222222;
+}
+.ui-widget {
+	font-family: 'dax_otmedium',arial,verdana;
+	font-size: 1.1em;
+}
+.ui-slider-horizontal {
+	height: 0.8em;
+}
+.ui-slider {
+	position: relative;
+	text-align: left;
+}
+#txtLoanAmount {
+	width: 81px;
+}
+.numbertimes input {
+	text-align: right;
+	width: 95px !important;
+}
+.emi-calculator-business .form input, .emi-calculator-business .form select {
+	padding:5px;
+	color:#0072BC;
+	font-size: 20px;
+	width:230px;
+	float: left;
+	font-family: 'dax_otmedium', Arial, Helvetica, sans-serif;
+	background-color:#fff;
+	text-align:right;
+    font-weight:bold;	
+}
+.emi-calculator-business .form input:focus, .emi-calculator-business .form select:focus, .emi-calculator-business .form .netsalary input:focus {
+	background-color:#f3f6f8;
+	text-align:right;
+}
+span[class='select click'] {
+	border: 1px solid #0092d5!important;
+	background-color:#f3f6f8!important;
+}
+.emi-calculator-business .form input.error, .select.error, .select span.error {
+	border: 1px solid #ff4848;
+	background-color:#fff;
+}
+.emi-calculator-business .form select {
+	width:248px;
+	position:relative;
+	border:1px solid #ccc;
+*border-collapse:collapse;
+*border: none!important;
+	outline: 1px solid #fff;
+	height:31px\9;
+	padding: 7px 8px;
+	line-height:30px;
+}
+.emi-calculator-business .form select option {
+	padding-right:10px;
+	border:none;
+}
+/* Emi calculator CSS */
+.EmiCalculator #slider, .EmiCalculator #slider2, .EmiCalculator #slider3 {
+	height:5px;
+	margin-top:8px!important
+}
+.EmiCalculator .ui-state-default, .EmiCalculator .ui-widget-content .ui-state-default, .EmiCalculator .ui-widget-header .ui-state-default {
+	background:url("../images/slider-button.png") no-repeat scroll 50% 45% rgba(0, 0, 0, 0)!important;
+}
+
+.EmiCalculator .ui-widget-content .ui-state-default{background:url("../images/slider-button.png") no-repeat scroll 50% 45% rgba(0, 0, 0, 0)!important;}
+.EmiCalculator .ui-slider-horizontal .ui-slider-handle {top: -0.9em;}
+
+.EmiCalculator #slider.ui-widget-content, .EmiCalculator #slider2.ui-widget-content, .EmiCalculator #slider3.ui-widget-content {
+	background:#CCCCCC
+}
+.EmiCalculator .ui-widget-header {
+	background:#0072BC
+}
+
+.EmiCalculator .numbertimes {
+	float:right;
+	margin-top:-58px;
+*margin-top:-63px;
+}
+.numbertimes .emi-slider {
+}
+.EmiCalculator .amount {
+	display:none;
+}
+/*.slider_emi {
+	width:535px;
+}*/
+.total {
+	width:175px;
+	float:right;
+	padding:0;
+}
+.emi-slider #EMIValue {
+	font-family:'dax_otmedium', Arial, Helvetica, sans-serif; color:#0072BC; font-weight:bold; font-size:20px!important;
+}
+
+/* faq css */
+#mainfaq, #seePaymentList{margin:0; padding:0; width:755px; float:left;} 
+.faq-head{background:#0072BC; color:#fff; font-size:20px; padding:10px 15px;}
+.faq-head div{font-size:17px}
+.faqcont{overflow:auto; padding:5px 0 0px 15px; height:470px}
+.paymentcont{overflow:auto; padding:5px 6px 0px 10px; height:370px;}
+.backbtn{float:left; padding:0 3px 0 0;}
+.backbtn a{background:url(../images/backbtn.jpg) no-repeat top left; width:22px; height:22px;}
+.backbtn a:hover{background:url(../images/backbtn.jpg) no-repeat bottom left; width:22px; height:22px;}
+
+.paymentDetails {padding:10px 5px 10px 10px}
+    .paymentDetails ul li {margin-bottom:-2px;
+    }
+.paymentDetails .paymentEMIschedule a {padding: 0 0 10px 0!important;width: 163px!important;}
+.paymentDetails .paymentTanorschedule a {padding: 0 0 10px 0!important;width: 177px!important;}
+
+#faq-head{background:#0072BC; color:#fff; font-size:20px; padding:10px 15px;}
+#faqcont{overflow:auto; padding:5px 0 15px 15px; height:350px}
+#backbtn{float:left; padding:0 3px 0 0;}
+
+#mainfaq strong,  #seePaymentList strong {color: #0072BC;font-weight: normal;}
+#calcuslider{width:2265px;}
+#faq {color:#0072BC; font-size:11pt}
+.parttext {padding:10px 0 13px;font-family:'dax_otmedium',arial,verdana}
+
+
+/***Part payment calculator****/
+.part-payment-calculator{font-size:10pt!important;}
+.part-payment-calculator .emi-slider{width:525px !important; text-align:right;float:none}
+.emi-slider .byline{font-size:10pt; color:#0072BC; clear:both;}
+.part-payment-calculator .emi-slider input{float:right; font-size:20px; border-bottom:1px dashed #CCCCCC; background:none;}
+.part-payment-calculator .form {
+/*color: #000000;*/
+line-height: 40px;
+}
+.part-payment-calculator .EmiCalculator .numbertimes {margin-top:-50px;}
+/* forecloser calculator */
+
+
+/* forecloser calculator */
+
+.forecloser-calculator{font-size:9pt!important;}
+.forecloser-calculator .emi-slider{width:500px !important; text-align:right;float:none}
+.forecloser-calculator .emi-slider input{float:right; font-size:20px; border-bottom:1px dashed #CCCCCC; background:none;}
+.forecloser-calculator .form {
+/*color: #000000;*/
+line-height: 40px;
+}
+.forecloser-calculator .EmiCalculator .numbertimes {margin-top:-50px;}
+.fleft{float:left;}
+.fright{float:right;}
+
+.pppd{float:right;}
+.pppd input{background:#f2f2f2; padding:9px 3px; color:#cdcdcd; font-size:9pt;border:1px solid #ccc;padding:7px 5px!important}
+    .pppd .inputDiv1 label {font-size:9pt!important;padding:2px 4px !important}
+
+/*Summary css*/
+#summaryDetails ul.summaryheading {margin:0;padding:0;display:block;float:left;border-bottom:2px dotted #ccc;width:99%;}
+#summaryDetails ul.summaryheading li {float:left;padding:0;list-style-type:none;line-height:21px;}
+
+#summaryDetails ul.summaryheading li.isavedhead {line-height:15px;}
+
+#summaryDetails .sum {font-size:29px;color: #0072BC;}
+.interestsaved {margin:0 0 0 37px;}
+.interestsaved .actv {color:#000!important;padding:0 0 22px 0!important; background:url(../images/bfl-hober.png) no-repeat bottom center;}
+.tanor {width:96px; color: #cdcdcd; padding-left:5px!important}
+.tanor .actv {color:#000!important;padding:0 0 22px 0!important; background:url(../images/bfl-hober.png) no-repeat bottom center;}
+.seepay {float:right!important;}
+.seepay a {font-weight:bold;text-decoration:none; padding:0!important; width:195px!important;}
+.isavedhead {font-size:12px;text-align: left;line-height: 12px;color: #000;width:140px}
+#summaryDetails ul.summaryheading li.isaveintrpay {color:#1cb863;font-size:21px;margin:0 0 0 24px;line-height:13px;}
+#summaryDetails ul.summaryheading li.isaveintrpay span {color:#9e9e9e;font-size:11px;}
+#summaryDetails ul.summaryheading li.isaveintrsav {color:#1cb863;font-size:21px;margin:0 0 0 60px;line-height:13px;}
+#summaryDetails ul.summaryheading li.isaveintrsav span {color:#9e9e9e;font-size:11px;}
+#summaryDetails ul.summaryheading li.isaveintrpay2 {color:#9e9e9e;font-size:21px;margin:0 0 0 24px;line-height:13px;}
+#summaryDetails ul.summaryheading li.isaveintrpay2 span {color:#9e9e9e;font-size:11px;}
+
+
+ul.paymentheading {margin:0 0 10px;padding:0;display:block;float:left;border-bottom:2px dotted #ccc;width:99%;}
+ul.paymentheading li {float:left;padding:10px 0;list-style-type:none;font-size:12px;line-height:normal; }
+.paymentEMIschedule {}
+.paymentEMIschedule .actv {color:#000!important;/*padding:0 0 12px 0;*/ background:url(../images/bfl-hober.png) no-repeat bottom center;}
+.paymentTanorschedule {width:150px; color: #cdcdcd;}
+.paymentTanorschedule .actv {color:#000!important;/*padding:0 0 12px 0;*/ background:url(../images/bfl-hober.png) no-repeat bottom center;}
+ul.paymentheading li.isaveintrpay {color:#1cb863;font-size:21px;margin:0 0 0 24px;line-height:13px;}
+ul.paymentheading li.isaveintrpay span {color:#9e9e9e;font-size:11px;}
+ul.paymentheading li.isaveintrsav {color:#1cb863;font-size:21px;margin:0 0 0 24px;line-height:13px;}
+ul.paymentheading li.isaveintrsav span {color:#9e9e9e;font-size:11px;}
+ul.paymentheading li.isaveintrpay2 {color:#9e9e9e;font-size:21px;margin:0 0 0 24px;line-height:13px;}
+ul.paymentheading li.isaveintrpay2 span {color:#9e9e9e;font-size:11px;}
+
+ul.paysch {margin:0;padding:0;display:block;float:left;width:550px; background: #ddebf6;}
+ul.paysch li {float: left;padding: 10px 10px;list-style-type: none;text-align: center;line-height: 13px;font-size: 13px;height: 22px;}
+
+.paysch {margin:0;padding:0; background: #ddebf6;}
+.paysch tr td {padding: 0px 3px;text-align: center;line-height: 16px;font-size: 14px;height: 22px;padding:3px 0;}
+
+.lineright {border-right:1px solid #aac0d5;}
+.lineright-last {padding-right:20px}
+.rightlinetd {border-right:1px solid #dddedf;}
+
+/* Partprepayment CSS */
+
+.inputDiv1 {float: left !important;}
+.amountDetails {font-size:20px;}
+.inputDiv1 input[type=text]{width:140px; padding:6px 3px; background:#d9d9d9;color:#000000; font-family:'dax_otmedium',arial,verdana }
+.inputDiv1 select {width:128px; padding:6px 3px;background:#d9d9d9; color:#000000; font-size:8pt; font-family:'dax_otmedium',arial,verdana }
+#numbertimes {padding-top:10px;}
+.Donebtn {padding-top:24px;}
+.partpreVal .inputDiv1 {
+   border-radius: 5px;
+    float: left;
+    line-height: 30px;
+    position: relative;
+}
+
+.partpreVal .inputDiv1 label {
+    color: #000000;
+    cursor: text;
+    font-family: 'dax_otmedium', Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    height: 28px;
+    left: 0;
+    margin: 0px 4px;
+    position: absolute;
+    top: -2px;
+    width: 94%;
+}
+
+
+/* tool tip */
+
+.tool {
+    bottom: 0;
+    box-shadow: 0 -3px 5px #E5E5E5;
+    display: none;
+    font-size: 8pt;
+    left: 50%;
+    line-height: normal;
+    margin-bottom: 37px;
+    margin-left: -103px;
+    position: absolute;
+    width: 204px;
+    z-index: 9999;
+}
+.toolBottom {
+    line-height: normal;
+    margin-left: -122px;
+    margin-top: 45px;
+    top: 0;
+    width: 244px;
+    z-index: 9999 !important;
+}
+.tool span, .toolBottom span {
+    background-color: #F5F7F9;
+    border: 1px solid #78C7EC;
+    border-radius: 2px;
+    color: #585858;
+    display: block;
+    margin: 1px 0 0;
+    padding: 10px;
+}
+.toolBottom span img {
+    left: 50%;
+    margin-left: -7px;
+    position: absolute;
+    top: -13px;
+}
+.tool span img {
+    bottom: -13px;
+    left: 50%;
+    margin-left: -7px;
+    position: absolute;
+}
+.tool span strong {
+    font-weight: normal;
+    color:#217FC5;
+}
+
+.tool span img {
+    bottom: -13px;
+    left: 50%;
+    margin-left: -7px;
+    position: absolute;
+}
+
+#PPError {display:none;}
+.errorTxt {border:1px solid #FF0000!important}
+.summarytext {color: #1cb863!important;font-size: 19px!important;line-height: 13px;font-family:'daxotregular', Arial, Helvetica, sans-serif;}
+.summarytextGray {color: #9e9e9e;font-size: 20px!important;line-height: 13px;font-family:'daxotregular', Arial, Helvetica, sans-serif;}
+.SummertTabCont {display:none}
+
+#summaryDetails {display:none;position:relative; padding-top:30px}
+#summaryDetails ul.tab2 li {cursor:pointer; text-align:center; margin-bottom:-2px;}
+.padl10 {padding:10px 10px 0 10px;}
+
+.emi-calculator-business .heading {float:left; width: 735px;padding:0 0 15px 0; }
+.emi-calculator-business h1 {font-size:22px;font-weight:normal; }
+.part-payment-calculator .heading {float:left; width: 735px;padding:0; }
+.part-payment-calculator h1 {font-size:22px;font-weight:normal; }
+.forecloser-calculator h1 {font-size:22px;font-weight:normal; }
+
+
+input#txtLoanAmt, input#txtTenure, input#intrRate, input#txtLoanAmount {font-family: 'dax_otmedium',arial,verdana;color: #383838;color: #383838;}
+
+.emi-calculator-business input#txtLoanAmount, .emi-calculator-business input#txtTenure, .emi-calculator-business input#intrRate {border-bottom:1px dashed #CCCCCC} 
+
+
+/* payment schedule */
+
+.yearName {width:90px;float:left}
+.OpeningAmt {width:90px;float:left}
+.interestAmt {width:90px;float:left}
+.paymentAmt {width:90px;float:left}
+.balanceAmt {width:90px;float:left}
+.loanPaidAmt {width:90px;float:left}
+
+#ErrorDiv .partpayError {background:#fff; opacity:0.72;width:560px;height:200px;position:absolute; top:0px;left:-4px;z-index:1;}
+#ErrorDiv .paymentErrortxt{background: none repeat scroll 0 0 #eeeeee;
+    color: #000;
+    font-family: 'daxotregular',Arial,Helvetica,sans-serif;
+    left: 25%;
+    padding: 10px;
+    position: absolute;
+    top: 13%;
+    width: 262px;
+    z-index: 10;
+    border-radius:3px;
+    text-align:center;
+
+    -moz-box-shadow: 0 0 5px #7f7f7f;
+-webkit-box-shadow: 0 0 5px #7f7f7f;
+box-shadow: 0 0 5px #7f7f7f;
+
+/* For IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#7f7f7f')";
+/* For IE 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#7f7f7f');
+}
+
+
+.paymentShedule .yearHead {padding: 8px 5px 8px 10px;padding-left:10px;border-bottom:1px solid #EEEEEE; cursor:pointer; font-family:'daxotregular',arial,verdana;font-size:14px}
+.paymentTabCont .accord {float:left;background:url(../images/plus-minus.gif) no-repeat top left;width:12px; height:11px;margin:3px 12px 3px 0}
+.paymentTabCont .hide .accord {float:left;background:url(../images/plus-minus.gif) no-repeat bottom left;width:12px; height:11px;}
+
+.showHide {display:none;}
+.paymentShedule table.tab-table {border-bottom:0px;border-top:0px;margin-bottom:0px;}
+.paymentShedule table.tab-table tbody{background:#F2F2F2}
+
+.TanorPaymentSchedule .yearHead {padding: 8px 5px 8px 10px;padding-left:10px;border-bottom:1px solid #EEEEEE;cursor:pointer;font-family:'daxotregular',arial,verdana; font-size:14px;}
+.TanorPaymentSchedule table.tab-table {border-bottom:0px;border-top:0px;margin-bottom:0px;}
+.TanorPaymentSchedule table.tab-table tbody{background:#F2F2F2}
+
+.paymentTabCont {display:none;}
+.mainPaysch {padding:5px 10px 0 10px}
+.part-payment-calculator .EmiCalculator #slider {margin-top:9px!important;}
+/*.part-payment-calculator .EmiCalculator .pdTV {padding-top:4px;}*/
+.txtRightLH {float:right; line-height:18px;}
+span.title {font-size:17px;
+}
+.summaryheading ul li {
+    padding: 0px;
+}
+summaryheading ul li a{ width:0;
+    
+}
+.interestsaved a,.tanor a {padding:0!important; width:90px!important
+}
+.SummertTabCont ul.summaryheading li {padding:17px 0!important;
+}
+
+.faqDetails {position:relative}
+.faqDetails .faqcontQ {float:left; width:202px; position:absolute; top:50px; left:15px;z-index:1; height:370px}
+.faqDetails .faqcontQ ol{padding:0px;margin:0px;}
+.faqDetails .faqcontQ ol li{list-style:none;}
+.faqDetails .faqcontQ ol li a{display:block; padding:5px 5px 5px 0;text-align:left}
+.faqDetails .faqcontQ ol li.selected a{background:url(../images/faqArrowRht.png) no-repeat right; display:block}
+.faqDetails .faqcontentQ {margin-left:200px; padding-left:10px; border-left:1px solid #f2f2f2 }
+.faqcont .lineH {line-height:30px}
+.intSaved {margin:0 0 0 37px;}
+.intSaved .actv {color:#000!important;padding:0 0 22px 0; background:url(../images/bfl-hober.png) no-repeat bottom center;}
+.penaltyCharges {width:96px; color: #cdcdcd;}
+.penaltyCharges .actv {color:#000!important;padding:0 0 22px 0; background:url(../images/bfl-hober.png) no-repeat bottom center;}
+
+.paymentSched {font-size:17px;}
+#summaryDetails .intSaved a{width:110px;}
+#summaryDetails .penaltyCharges a {width:115px;}

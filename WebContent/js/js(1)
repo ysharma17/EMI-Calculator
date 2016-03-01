@@ -1,0 +1,49 @@
+LI.define("FollowCompany");
+LI.FollowCompany=function(b,a){this.container=b;
+this.companyId=a.companyId||1337;
+this.followBtn=Y$("a.IN-follow",b,true);
+this.counterRight=Y$(".IN-right",b,true);
+this.startFollowingURL=a.startFollowingURL||null;
+this.companyURL=a.companyURL||"http://www.linkedin.com/company/"+this.companyId;
+this.processing=false;
+this.attemptLogin=false;
+this.initListeners();
+YEvent.onDOMReady(this.updateFrameSize,null,this)
+};
+LI.FollowCompany.prototype={updateFrameSize:function(){var b=Y$(".title",this.followBtn,true),d=YDom.getRegion(b).width,c=YDom.getRegion(this.counterRight).width||0,a=d+c+2;
+YDom.get("body").style.width=a+"px"
+},initListeners:function(){var a=this.container;
+YEvent.on(this.container,"click",this.handleFollow,this,true);
+YEvent.on(this.container,"mousedown",function(b){YDom.addClass(a,"down")
+});
+YEvent.on(this.container,"mouseout",function(b){YDom.removeClass(a,"down")
+})
+},handleFollow:function(a){var c=this;
+if(YDom.hasClass(this.followBtn,"IN-signin")){this.attemptLogin=true;
+try{window.self.parent.login=function(){YDom.removeClass(c.followBtn,"IN-signin");
+c.startFollowing()
+}
+}catch(d){return false
+}return false
+}var b=Y$(".title-text",this.container,true);
+if(YDom.hasClass(b,"follow")){YEvent.preventDefault(a);
+this.startFollowing()
+}else{if(YDom.hasClass(b,"following")){YEvent.stopEvent(a);
+window.open(this.companyURL)
+}}},startFollowing:function(){if(this.processing){return
+}this.processing=true;
+var b=this.startFollowingURL+"&ajax=";
+var d={success:c,failure:a,timeout:15000,scope:this};
+LI.asyncRequest("GET",b,d,null);
+function c(l){if(this.attemptLogin){this.attemptLogin=false;
+try{window.self.parent.getXD().login()
+}catch(j){}}var g=l.statusText,i=l.responseText,f=this.container,h=Y$(".title-text",f,true),k=Y$(".count",f,true);
+this.processing=false;
+if(g==="OK"){h.innerHTML=LI.i18n.get("followCompanyFollowing");
+YDom.removeClass(h,"follow");
+YDom.addClass(h,"following");
+f.setAttribute("title",LI.i18n.get("followCompanyYouAreFollowing"));
+this.updateFrameSize();
+if(k&&i.error_code!="BizFollow.error.alreadyFollowing"){k.innerHTML=YDom.get("post-follow-count").value
+}}}function a(){this.processing=false
+}}};

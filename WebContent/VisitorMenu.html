@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>EmiCalculator</title>
+<link href="css/wealth-styles.css" type="text/css" rel="stylesheet">
+<link href="css/jquery-ui.css" rel="stylesheet" type="text/css">
+<script src="js/cb=gapi.loaded_3" async=""></script>
+<script async="" src="js/fbds.js"></script>
+<script type="text/javascript" async="" src="js/inpage_linkid.js" id="undefined"></script>
+<script src="js/cb=gapi.loaded_2" async=""></script>
+<script src="js/cb=gapi.loaded_1" async=""></script>
+<script src="js/cb=gapi.loaded_0" async=""></script>
+<script type="text/javascript" async="" src="js/platform.js" gapi_processed="true"></script>
+<script async="" src="js/gtm.js"></script>
+<script type="text/javascript" async="" src="js/dc.js"></script>
+<script type="text/javascript" language="javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/bfs-custom-js.js"></script>
+<script type="text/javascript" language="javascript" src="js/custom-script.js"></script>
+<script type="text/javascript" language="javascript" src="js/jquery.autocomplete.js"></script>
+<script type="text/javascript" language="javascript" src="js/jquery-ui-script.js"></script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    var pluginUrl =
+    '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+    _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+    _gaq.push(['_setAccount', 'UA-30054648-1']);
+    _gaq.push(['_setDomainName', '.bajajfinserv.in']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_setAllowHash', false]);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+    <script type="text/javascript">
+
+        if (document.referrer.match(/google\./gi) && document.referrer.match(/cd/gi)) {
+            var myString = document.referrer;
+            var r = myString.match(/cd=(.*?)&/);
+            var rank = parseInt(r[1]);
+            var kw = myString.match(/q=(.*?)&/);
+
+            if (kw[1].length > 0) {
+                var keyWord = decodeURI(kw[1]);
+            } else {
+                keyWord = "(not provided)";
+            }
+
+            var p = document.location.pathname;
+            _gaq.push(['_trackEvent', 'RankTracker', keyWord, p, rank, true]);
+        }
+    </script>
+
+    <style type="text/css">
+        .cbm {
+            clear: both;
+            display: block;
+            margin-bottom: 40px;
+        }
+        
+    </style>
+	<script type="text/javascript">
+	 $(document).ready(function(){
+		 
+		$('.navtabs li').hover(
+		function () {
+		 
+		  $('.navtabs li.active').removeClass('active');
+		  $(this).parent().next().children('div').hide();
+		 
+		 
+		  var index = $(this).index();
+		  $(this).addClass('active');
+		  $(this).parent().next().children('div:eq(' + index + ')').show();
+		}
+		);		  
+  		});
+    </script>
+</head>
+<body>
+<div id="top-header">
+    <div class="top-center">
+        <a href="#" class="logo"><img border="0" src="images/synat_0.jpg"></a>
+
+        <div id="menu">
+            <ul>
+                <li><a href="index.jsp">Home</a></li>
+                	
+                        <!--<div class="right">
+                        With the Consumer Durables Finance from Bajaj Finserv Lending, you don't have to pay any interest whatsoever on the loan amount opted for. Simply divide the total amount of purchase with the loan tenor opted for, pay a few installments upfront along with a nominal processing fee and off you go with your favourite consumer durable.                        <a class="knowmoreb" href="#"></a>
+                        </div>-->
+                        
+                <li><a href="LoanCalculator.jsp">Loan-Calculator</a></li>
+                	
+                <li><a href="Registration.jsp">Register</a></li>
+                
+                        <!--<div class="right">With the Consumer Durables Finance from Bajaj Finserv Lending, you don't have to pay any interest whatsoever on the loan amount opted for. Simply divide the total amount of purchase with the loan tenor opted for, pay a few installments upfront along with a nominal processing fee and off you go with your favourite consumer durable.
+                        <a class="knowmoreb" href="#"></a>
+                        </div>-->
+                     
+                <li><a href="Login.jsp">Login</a></li>
+            </ul>
+        </div>
+
+       
+     </div>
+    <div class="clearfix"></div>
+    </div>
+    <br clear="all">
+	<!-- end of header part -->
+</body>
+</html>
